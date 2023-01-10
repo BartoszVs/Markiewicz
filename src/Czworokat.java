@@ -41,7 +41,7 @@ public class Czworokat {
 
         double Obwod = AB + BC + CD + DA;
 
-        String Wynik = (AB == BC && AB == CD && AB == DA && BC == CD && BC == DA && CD == DA) ? "TAK" : "NIE";
+        String Wynik = (AB == BC && AB == CD && AB == DA && BC == CD && BC == DA) ? "TAK" : "NIE";
 
         System.out.println("Obwód = " + Obwod);
         System.out.println("PRAWDOPODOBNIE: " + Wynik);
